@@ -2,11 +2,11 @@ import dcLogo from "../assets/img/dc-logo.png"
 export default function AppHeader() {
 
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary ms-5">
             <img src={dcLogo} alt='logo Dc' />
             <div className="container-fluid">
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div className="navbar-nav ms-auto">
+                    <div className="navbar-nav ms-auto fw-bold">
                         <a className="nav-link" href="#">CHARACTERS</a>
                         <a className="nav-link text-primary borde border-bottom border-primary" href="#">COMICS</a>
                         <a className="nav-link" href="#">MOVIES</a>
