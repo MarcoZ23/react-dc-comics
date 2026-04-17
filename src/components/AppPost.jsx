@@ -7,7 +7,7 @@ import dcPower from "../assets/img/buy-dc-power-visa.svg"
 export default function AppPost() {
 
     return (
-        <ul className="nav justify-content-center bg-primary p-3 flex-nowrap">
+        <ul className="nav justify-content-center bg-primary p-3 flex-nowrap py-4 position-relative z-2">
             <li className="nav-item d-flex align-items-center">
                 <img src={comicsDigital} alt='comics digital' className="img-post"></img>
                 <a className="nav-link active text-white" aria-current="page" href="#">DIGITAL COMICS</a>

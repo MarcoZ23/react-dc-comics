@@ -6,6 +6,18 @@ body {
 
 
 .img-post {
-    width: 20%;
-    display: block;
+    width: 20px;
+
+}
+
+footer {
+    min-height: 30vh;
+    background-image: url('../src/assets/img/footer-bg.jpg');
+    margin: 0;
+    width: 100%;
+}
+
+.img-bg {
+
+    width: 500px;
 }
