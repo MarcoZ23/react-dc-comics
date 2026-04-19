@@ -22,11 +22,11 @@ export default function AppPost() {
             </li>
             <li className="nav-item d-flex align-items-center">
                 <img src={comicsShop} alt='comics shop' className="img-post"></img>
-                <a className="nav-link text-white">COMIC SHOP LOCATOR</a>
+                <a className="nav-link text-white" href="#">COMIC SHOP LOCATOR</a>
             </li>
             <li className="nav-item d-flex align-items-center">
                 <img src={dcPower} alt='power visa' className="img-post"></img>
-                <a className="nav-link text-white">DC POWER VISA</a>
+                <a className="nav-link text-white" href="#">DC POWER VISA</a>
             </li>
         </ul>
 

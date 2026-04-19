@@ -4,6 +4,9 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+.head-logo {
+    width: 70px;
+}
 
 .img-post {
     width: 20px;
@@ -20,4 +23,23 @@ footer {
 .img-bg {
 
     width: 500px;
+    right: 0;
+    top: -20%;
+}
+
+.jumbo {
+    height: 15vh;
+    width: 100%;
+
+}
+
+.stand {
+    top: 22%;
+}
+
+.img-card {
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+
 }

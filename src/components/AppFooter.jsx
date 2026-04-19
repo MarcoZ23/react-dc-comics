@@ -11,7 +11,7 @@ import periscopeLogo from "../assets/img/footer-periscope.png"
 export default function AppFooter() {
 
     return (
-        <footer className="container m-0">
+        <footer className="container-fluid position-relative">
             <div className="row">
                 <div className="col-2 d-flex flex-column">
                     <h4 className="fw-bold text-white mt-4">DC COMICS</h4>
@@ -39,7 +39,7 @@ export default function AppFooter() {
                     ))
                     }
                 </div>
-                <img src={dcBgLogo} alt="DC logo" className="img-bg flex-nowrap position-absolute start-50 bottom-50"></img>
+                <img src={dcBgLogo} alt="DC logo" className="img-bg flex-nowrap position-absolute"></img>
             </div>
             <div className="container bg-dark py-4 position-relative">
                 <button className="ms-4 border border-primary border-2 bg-dark text-white fw-bold p-2">SIGN-UP NOW!</button>
