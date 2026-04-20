@@ -6,6 +6,7 @@ body {
 
 .head-logo {
     width: 70px;
+
 }
 
 .img-post {
@@ -31,6 +32,7 @@ footer {
     height: 15vh;
     width: 100%;
 
+
 }
 
 .stand {
@@ -40,6 +42,7 @@ footer {
 .img-card {
     width: 150px;
     height: 150px;
-    z-index: 2;
+
+
 
 }

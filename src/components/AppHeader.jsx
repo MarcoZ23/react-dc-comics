@@ -53,6 +53,9 @@ export default function AppHeader() {
             path: '#'
         }
     ]
+
+    const idAttivo = 2;
+
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary ms-5">
             <img src={dcLogo} alt='logo Dc' className="head-logo" />
@@ -61,8 +64,7 @@ export default function AppHeader() {
                     <div className="navbar-nav ms-auto fw-bold py-4">
                         {
                             navEl.map((item) => (
-                                <a key={item.id} href={item.path} className="nav-link">{item.text}</a>
-
+                                <a key={item.id} href={item.path} className={`nav-link ${item.id === idAttivo ? 'text-primary border-bottom border-primary' : ''}`}>{item.text}</a>
                             ))
                         }
                     </div>

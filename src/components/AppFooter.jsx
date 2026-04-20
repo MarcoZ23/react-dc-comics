@@ -41,7 +41,7 @@ export default function AppFooter() {
                 </div>
                 <img src={dcBgLogo} alt="DC logo" className="img-bg flex-nowrap position-absolute"></img>
             </div>
-            <div className="container bg-dark py-4 position-relative">
+            <div className="container-fluid bg-dark py-4 position-relative">
                 <button className="ms-4 border border-primary border-2 bg-dark text-white fw-bold p-2">SIGN-UP NOW!</button>
                 <span className="text-primary fw-bold position-relative start-50">FOLLOW US</span>
                 <span>
