@@ -1,14 +1,10 @@
-const DcItem = [' Term Of Use', ' Privacy policy (New)', ' Ad Chices', ' Advertising', ' Jobs', ' Subscriptions', ' Talent Workshops', ' CPSC Certificates', ' Ratings', ' Shop Help', ' Contact Us']
-const DcComics = [' Characters', ' Comics', ' Movies', ' Tv', ' Games', ' Videos', ' News']
-const Shop = [' Shop DC', ' Shop DC Collectibles']
-const Sites = [' DC', ' MAD Magazine', ' DC Kids', ' DC Universe', ' DC Power Visa']
 import dcBgLogo from "../assets/img/dc-logo-bg.png"
 import facebookLogo from "../assets/img/footer-facebook.png"
 import twitterLogo from "../assets/img/footer-twitter.png"
 import youtubeLogo from "../assets/img/footer-youtube.png"
 import pinterestLogo from "../assets/img/footer-pinterest.png"
 import periscopeLogo from "../assets/img/footer-periscope.png"
-export default function AppFooter() {
+export default function AppFooter({ DcItem, DcComics, Shop, Sites }) {
 
     return (
         <footer className="container-fluid position-relative">

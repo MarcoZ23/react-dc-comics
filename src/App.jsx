@@ -56,6 +56,10 @@ const navEl = [
     path: '#'
   }
 ]
+const DcItem = [' Term Of Use', ' Privacy policy (New)', ' Ad Chices', ' Advertising', ' Jobs', ' Subscriptions', ' Talent Workshops', ' CPSC Certificates', ' Ratings', ' Shop Help', ' Contact Us']
+const DcComics = [' Characters', ' Comics', ' Movies', ' Tv', ' Games', ' Videos', ' News']
+const Shop = [' Shop DC', ' Shop DC Collectibles']
+const Sites = [' DC', ' MAD Magazine', ' DC Kids', ' DC Universe', ' DC Power Visa']
 function App() {
 
 
@@ -64,7 +68,7 @@ function App() {
       <AppHeader navEl={navEl} />
       <AppMain />
       <AppPost />
-      <AppFooter />
+      <AppFooter DcItem={DcItem} DcComics={DcComics} Shop={Shop} Sites={Sites} />
     </>
   )
 }
