@@ -1,58 +1,7 @@
 import dcLogo from "../assets/img/dc-logo.png"
-export default function AppHeader() {
+export default function AppHeader({ navEl }) {
 
-    const navEl = [
-        {
-            id: 1,
-            text: 'CHARACTERS',
-            path: '#'
-        },
-        {
-            id: 2,
-            text: 'COMICS',
-            path: '#'
-        },
-        {
-            id: 3,
-            text: 'MOVIES',
-            path: '#'
-        },
-        {
-            id: 4,
-            text: 'TV',
-            path: '#'
-        },
-        {
-            id: 5,
-            text: 'GAMES',
-            path: '#'
-        },
-        {
-            id: 6,
-            text: 'COLLECTIBLES',
-            path: '#'
-        },
-        {
-            id: 7,
-            text: 'VIDEOS',
-            path: '#'
-        },
-        {
-            id: 8,
-            text: 'FANS',
-            path: '#'
-        },
-        {
-            id: 9,
-            text: 'NEWS',
-            path: '#'
-        },
-        {
-            id: 10,
-            text: 'SHOP',
-            path: '#'
-        }
-    ]
+
 
     const idAttivo = 2;
 
